@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+    </style>
+<header class="hero">
+    <img src="assets/Field.jpg" alt="Field">
+    <div class="hero-content">
+        <h1>Kathy Do</h1>
+        <p>Pet Lover | Graphic Designer | Music Lover</p>
+    </div>
+</header>
+
+<section class="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I'm a Vietnamese girl, currently, a first year SAIT student major in Interactive Design - Graphic Designer Major. I'm pretty good at using Adobe application such as Illustrator, InDesign, Premiere Pro</p>
+    </div>
+</section>
+
+<section class="portfolio">
+    <div class="container">
+        <h2>Kathy's Project</h2>
+        <div class="project-card">
+            <img src="assets/Outerspace.jpg" alt="Woman in 1950s lost in the Outerspace">
+            <h3>Project Title</h3>
+            <p>1950s woman lost in the Outerspace</p>
+        </div>
+    </div>
+</section>
+
+<section class="video">
+    <div class="container">
+        <h2>Vietnam and Vietnamese people</h2>
+        <p>"I'm proud to call Vietnam my home. Our culture, food, and stunning scenery are truly unforgettable. Despite some hidden gems, our country's beauty deserves to be shared with the world. I've chosen a special video to highlight Vietnam's charm and allure, inviting everyone to experience its magic."</p>
+        <div class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NSnkb1IAjbE?si=Fxz8EUon25k7R6Ac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/addfbs0kQDE?si=8Z2jRwqOkiu0935n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+        </div>
+    </div>
+</section>
+
+<section class="QnA">
+    <div class="container">
+        <h2>QnAs</h2>
+        <div class="accordion">
+            <div class="accordion-item">
+                <h3 class="accordion-title">What is your favourite dishes in Vietnam?</h3>
+                    <p>" Vietnamese cuisine offers a diverse range of dishes, but some favorites include pho (noodle soup), banh mi (Vietnamese sandwich), bun cha (grilled pork with noodles), and banh xeo (savory pancakes)."</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<h1>Weather App</h1>
+    <div>
+        <label for="city">Select a city:</label>
+        <select id="city">
+            <option value="Calgary">Calgary</option>
+            <option value="Toronto">Toronto</option>
+            <option value="Vancouver">Vancouver</option>
+        </select>
+        <button id="getWeather">Get Weather</button>
+    </div>
+    <div id="weatherInfo"></div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>Kathy Do</h3>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.facebook.com/">Facebook</a>
+                <a href="https://www.instagram.com/">Instagram</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

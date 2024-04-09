@@ -1,0 +1,252 @@
+body {
+    font-family:'Anton-regular';
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #000000;
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    opacity: 2;
+}
+
+.hero-content {
+    position: relative;
+    padding: 100px 0;
+    color: #000000;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+.hero p {
+    font-size: 1.5em;
+}
+
+
+.about {
+    padding: 500px 0;
+    text-align: center;
+    background-color:aliceblue;
+}
+
+.about h2 {
+    font-size: 40pt;
+}
+
+.about p {
+    font-size: 20pt;
+}
+
+.portfolio {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.project-card {
+    display: inline-block;
+    background-color:antiquewhite;
+    border-radius: 10px;
+}
+
+.project-card img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.project-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1.1em;
+}
+
+.video {
+    background-color:aliceblue;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.video h2 {
+    font-size: 2.5em;
+}
+
+.video p {
+    font-style: italic;
+}
+
+.QnA {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.QnA h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+}
+
+.accordion-title {
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.footer {
+    background-color: #216920;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer h3 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #fff;
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 1280px) {
+    .hero img {
+        width: 100%;
+        height: auto;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        position: absolute;
+        opacity: 2;
+    }
+    
+    .hero-content {
+        position: relative;
+        padding: 100px 0;
+        color: #000000;
+        text-align: center;
+    }
+    
+    .hero h1 {
+        font-size: 2.5em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .hero-content {
+        color: #ffffff;
+    }
+
+    .about {
+        padding: 500px 0;
+        text-align: center;
+    }
+    
+    .about h2 {
+        font-size: 2.5em;
+    }
+
+    .about p {
+        font-size: 1em;
+    }
+
+    .portfolio h2 {
+        font-size: 2.5em;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .project-card img {
+        width: 100%;
+    }
+
+    .project-card h3 {
+        font-size: 1.5em;
+    }
+
+    .video h2 {
+        font-size: 2em;
+    }
+
+    .QnA h2 {
+        font-size: 2em;
+    }
+
+    .accordion-title {
+        font-size: 1.2em;
+    }
+
+    .footer h3 {
+        font-size: 2em;
+    }
+
+    .footer-links a {
+        font-size: 0.9em;
+    }
+
+}
+
+#weatherInfo {
+    text-align: center;
+    border: 5px solid #216920;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+div {
+    margin-bottom: 20px;
+}
